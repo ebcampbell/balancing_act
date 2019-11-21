@@ -49,6 +49,10 @@ nav img {
   width: 50px;
 }
 
+.dashboard {
+  border-left: 3px solid #1CA3BA;
+}
+
 .left-container, .right-container{
   float: left;
   width: 45%;
@@ -61,13 +65,29 @@ nav img {
   /* width: 47%; */
   height: 90px;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  position: relative;
+}
+
+.close-img {
+  height: 12px
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 00px;
+  background: transparent;
+  border: none;
 }
 
 .title {
   padding-right: 200px;
 }
 
-button {
+.blue-button,
+.trans-button {
+  float: right;
+  margin-top: 25px;
   display: inline-block;
   background-color: #1CA3BA;
   margin-left: 10px;
@@ -78,7 +98,8 @@ button {
 }
 
 .income-cards {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  margin-top: 20px;
   overflow: auto;
 }
 
@@ -107,11 +128,7 @@ button {
   width: 40%
 } */
 
-.right-container {
-  background-color: white;
-}
-
-table {
+.account-cards {
   background-color: white;
   margin: 10px;
 }
@@ -127,7 +144,83 @@ table {
 
 .account-cards {
   width: 100%;
+  height: 65px;
   float: left;
   margin-left: 0;
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+.right-container {
+  background-color: white;
+  padding: 0;
+  margin: 50px;
+  margin-top: 135px;
+}
+
+.recent-title {
+  float: left;
+  overflow: auto;
+  margin-top: 0;
+  font-size: ;
+}
+.recent-button {
+  padding: 0;
+  margin: 0;
+  margin: 10px 10px;
+  /* padding: 6px 30px;
+  margin: 20px;
+  overflow: auto; */
+}
+
+.trans-button {
+  margin-top: 0;
+}
+
+.recent-title {
+  margin-right: 150px;
+  font-size: 22px;
+}
+
+.trans_table {
+  padding: 25px;
+  font-size: 16px;
+}
+
+.trans_table tr {
+  height: 10px;
+}
+
+.heading-date,
+.heading-payee,
+.heading-inflow,
+.heading-outflow {
+text-align: left;
+padding: 10px 0px;
+}
+
+.table-date,
+.table-payee,
+.table-inflow,
+.table-outflow {
+  border-bottom: 1px solid #CCCCCC;
+  text-align: left;
+  padding: 5px 0px;
+}
+
+.table-date {
+  width: 10%;
+}
+
+.table-payee {
+  width: 10%;
+  text-align: left;
+}
+
+.table-inflow {
+  width: 6%;
+}
+
+.table-outflow {
+  width: 3%;
 }

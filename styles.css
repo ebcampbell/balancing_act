@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
+  font-family: 'Biryani', sans-serif;
 }
 
 html,
 body {
   background-color: #F5F5F5;
   color: #363636;
-  font-family: 'Biryani', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -68,38 +68,33 @@ nav img {
 }
 
 button {
+  display: inline-block;
   background-color: #1CA3BA;
-  padding: 6px 40px;
+  margin-left: 10px;
+  padding: 6px 32px;
   font-size: 16px;
   border-radius: 20px;
-  text-transform: capitalize;
   color: white;
 }
 
 .income-cards {
   border: 2px solid black;
+  overflow: auto;
 }
 
 .name {
   padding: 29px 70px 20px 35px;
 }
 
-.income {
-  weight: 400px;
-  border: 2px solid black;
-}
-
 .card {
-  /* float: left; */
-  /* width: 31%;
-  margin: 20px 1%;
-  height: 100px;
-  background-color: white; */
-  display:inline-block;
-  width: 29%;
-  height: 100px;
-  margin-right: 20px;
+  float: left;
+  width: 30%;
+  height: 90px;
+  margin: 1.5%;
   background-color: white;
+  text-align: left;
+  padding-left: 20px;
+  text-transform: uppercase;
 }
 
 .title {
@@ -121,7 +116,18 @@ table {
   margin: 10px;
 }
 
+.card h6 {
+  margin: 0;
+  margin-top: 25px;
+}
+
+.card p {
+  margin: 2px;
+}
+
 .account-cards {
   width: 100%;
   float: left;
+  margin-left: 0;
+  padding-left: 10px;
 }

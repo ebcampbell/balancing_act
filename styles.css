@@ -39,18 +39,21 @@ body {
   margin-bottom: 230px;
 }
 
-nav img {
+nav button {
   display: block;
-  width: 37px;
-  margin: 25%;
+  width: 50px;
+  margin: 14px;
+  background: transparent;
+  border: none;
+}
+
+.nav-button {
+  border-left: 2px solid black;
+
 }
 
 .elephant {
   width: 50px;
-}
-
-.dashboard {
-  border-left: 3px solid #1CA3BA;
 }
 
 .left-container, .right-container{
@@ -66,6 +69,8 @@ nav img {
   height: 90px;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   position: relative;
+  border-radius: 3px;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.05);
 }
 
 .close-img {
@@ -80,31 +85,11 @@ nav img {
   border: none;
 }
 
-.title {
-  padding-right: 200px;
-}
-
-.blue-button,
-.trans-button {
-  float: right;
-  margin-top: 25px;
-  display: inline-block;
-  background-color: #1CA3BA;
-  margin-left: 10px;
-  padding: 6px 32px;
-  font-size: 16px;
-  border-radius: 20px;
-  color: white;
-}
-
 .income-cards {
   /* border: 2px solid black; */
   margin-top: 20px;
   overflow: auto;
-}
-
-.name {
-  padding: 29px 70px 20px 35px;
+  border-radius: 3px;
 }
 
 .card {
@@ -116,10 +101,32 @@ nav img {
   text-align: left;
   padding-left: 20px;
   text-transform: uppercase;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.05);
 }
 
 .title {
+  padding-top: 15px;
+  padding-right: 200px;
+  font-size: 24px;
   display: inline-block;
+}
+
+.blue-button,
+.trans-button {
+  float: right;
+  margin-top: 35px;
+  display: inline-block;
+  background-color: #1CA3BA;
+  margin-left: 10px;
+  padding: 2px 22px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.name {
+  padding: 29px 70px 20px 35px;
 }
 
 /* .right-container {
@@ -127,11 +134,6 @@ nav img {
   border: 1px solid black;
   width: 40%
 } */
-
-.account-cards {
-  background-color: white;
-  margin: 10px;
-}
 
 .card h6 {
   margin: 0;
@@ -149,6 +151,10 @@ nav img {
   margin-left: 0;
   padding-left: 15px;
   padding-top: 12px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.05);
+  border-radius: 3px;
 }
 
 .right-container {
@@ -156,34 +162,42 @@ nav img {
   padding: 0;
   margin: 50px;
   margin-top: 135px;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.05);
+}
+
+.transactions {
+  margin-top: 30px 10px;
 }
 
 .recent-title {
   float: left;
   overflow: auto;
-  margin-top: 0;
-  font-size: ;
+  margin-left: 15px;
+  margin-bottom: 0;
+
 }
 .recent-button {
   padding: 0;
-  margin: 0;
-  margin: 10px 10px;
+  margin: 15px 10px;
   /* padding: 6px 30px;
   margin: 20px;
   overflow: auto; */
 }
 
 .trans-button {
-  margin-top: 0;
+  margin: 18px 20px;
+
 }
 
 .recent-title {
-  margin-right: 150px;
+  /* margin-right: 150px; */
   font-size: 22px;
 }
 
 .trans_table {
+  float: left;
   padding: 25px;
+  padding-top: 5px;
   font-size: 16px;
 }
 
@@ -223,4 +237,8 @@ padding: 10px 0px;
 
 .table-outflow {
   width: 3%;
+}
+
+.account_cards td {
+  text-align: left;
 }

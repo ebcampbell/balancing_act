@@ -1,9 +1,17 @@
 var welcome = document.querySelector('.welcome');
 
-welcome.addEventListener('click', closeWelcome);
+var button = document.querySelector('.close-button')
 
-function closeWelcome(event) {
-  if (event.target.classList.contains('close-img')) {
-  event.target.parentNode.parentNode.remove();
-  }
+button.addEventListener('click', closeWelcome);
+
+function closeWelcome {
+  welcome.style.display = 'none'
 }
+
+// welcome.addEventListener('click', closeWelcome);
+
+// function closeWelcome(event) {
+//   if (event.target.classList.contains('close-img')) {
+//   event.target.parentNode.parentNode.remove();
+//   }
+// }

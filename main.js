@@ -4,7 +4,7 @@ var button = document.querySelector('.close-button')
 
 button.addEventListener('click', closeWelcome);
 
-function closeWelcome {
+function closeWelcome() {
   welcome.style.display = 'none'
 }
 
@@ -15,3 +15,23 @@ function closeWelcome {
 //   event.target.parentNode.parentNode.remove();
 //   }
 // }
+var dashboardButton = document.querySelector('.dashboard-button');
+var walletButton = document.querySelector('.wallet-button');
+var profileButton = document.querySelector('.profile-button');
+var overviewPage = document.querySelector('main');
+
+walletButton.addEventListener('click', changeWalletIcon);
+
+function changeWalletIcon() {
+  walletButton.classList.add('nav-icon-button');
+  dashboardButton.classList.remove('nav-icon-button');
+  overviewPage.remove('main');
+}
+
+profileButton.addEventListener('click', changePorfileIcon);
+
+function changePorfileIcon() {
+  profileButton.classList.add('nav-icon-button');
+  dashboardButton.classList.remove('nav-button-icon');
+
+}

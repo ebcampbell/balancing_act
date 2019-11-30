@@ -1,22 +1,13 @@
 * {
   box-sizing: border-box;
   font-family: 'Biryani', sans-serif;
-}
-
-html,
-body {
-  background-color: #F5F5F5;
-  color: #363636;
   margin: 0;
   padding: 0;
 }
 
-header {
-  width: 100%;
-  padding-top: 10px;
-}
-
 body {
+  background-color: #F5F5F5;
+  color: #363636;
   margin-left: 80px;
   padding-left: 30px;
 }
@@ -27,46 +18,62 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: white;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .navigation .elephant {
   width: 70px;
   margin: 5px;
   margin-top: 20px;
-  margin-bottom: 230px;
+  margin-bottom: 190px;
 }
 
 nav button {
   display: block;
-  width: 50px;
+  width: 40px;
   margin: 14px;
   background: transparent;
   border: none;
+  outline: none;
 }
 
-.nav-button {
+.nav-icon-button {
   border-left: 3px solid #1CA3BA;
-
 }
+
+/* .dashboard-button {
+  border-left: 3px solid #1CA3BA;
+} */
 
 .elephant {
   width: 50px;
 }
 
+header {
+  font-size: 14px;
+}
+
 .left-container, .right-container{
   float: left;
   width: 45%;
-  /* border: 1px solid black; */
-  padding: 1%;
-  margin: 1%;
+  padding: 30px 0px 5px;
+  margin: 0;
+}
+
+.right-container {
+  background-color: white;
+  padding: 0;
+  margin-left: 85px;
+  margin-top: 95px;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
 }
 
 .welcome {
-  /* width: 47%; */
+  width: 100%;
   height: 90px;
+  margin-top: 20px;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   position: relative;
   border-radius: 3px;
@@ -79,157 +86,159 @@ nav button {
 
 .close-button {
   position: absolute;
-  top: 5px;
-  right: 00px;
+  top: 15px;
+  right: 15px;
   background: transparent;
   border: none;
 }
 
+.name {
+  padding: 29px 70px 20px 30px;
+}
+
 .income-cards {
-  /* border: 2px solid black; */
   margin-top: 20px;
-  overflow: auto;
-  border-radius: 3px;
+    /* border: 1px solid black; */
 }
 
 .card {
-  float: left;
+  display: inline-block;
   width: 30%;
-  height: 90px;
-  margin: 1.5%;
+  height: 100px;
+  margin: 0;
   background-color: white;
   text-align: left;
   padding-left: 20px;
   text-transform: uppercase;
+  border-radius: 3px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
+}
+
+.card h6 {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 20px;
+  margin: 2px;
+}
+
+.expenses {
+  margin-left: 25px;
+}
+
+.credit {
+  margin-left: 25px;
+}
+
+.accounts-banner {
+  margin: 40px 0px 20px;
 }
 
 .title {
   padding-top: 15px;
   padding-right: 200px;
-  font-size: 24px;
-  display: inline-block;
+  font-size: 22px;
 }
 
-.blue-button,
+.accounts-button,
 .trans-button {
   float: right;
-  margin-top: 35px;
-  display: inline-block;
   background-color: #1CA3BA;
-  margin-left: 10px;
-  padding: 2px 22px;
-  font-size: 12px;
+  padding: 6px 28px 2px;
+  font-size: 14px;
   border-radius: 20px;
   color: white;
   text-transform: uppercase;
 }
 
-.name {
-  padding: 29px 70px 20px 35px;
+.accounts-button {
+  margin-top: 0px;
 }
 
-/* .right-container {
-  float: right;
-  border: 1px solid black;
-  width: 40%
-} */
-
-.card h6 {
-  margin: 0;
-  margin-top: 25px;
-}
-
-.card p {
-  margin: 2px;
+.account {
+  width: 100%;
+  height: 80px;
 }
 
 .account-cards {
-  width: 100%;
-  height: 65px;
-  float: left;
-  margin-left: 0;
-  padding-left: 15px;
-  padding-top: 12px;
+  margin-bottom: 15px;
+  padding: 22px 0px 20px 20px;
   background-color: white;
-  margin: 10px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
   border-radius: 3px;
+  position: relative;
 }
 
-/* .account_cards td {
-  text-align: left;
-} */
-
-.right-container {
-  background-color: white;
-  padding: 0;
-  margin: 50px;
-  margin-top: 135px;
-  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
+.accounts img {
+  position: absolute;
+  top: 20px;
+  width: 30px;
 }
 
-.transactions {
-  margin-top: 30px 10px;
+.accounts span {
+  padding-top: 10px;
+}
+
+.accounts .column-one {
+  margin-left: 120px;
+}
+
+.accounts .column-two {
+  margin-left: 200px;
+}
+
+.accounts .amazon {
+  margin-left: 180px;
+}
+
+.accounts .southwest {
+  margin-left: 160px;
+}
+
+.recent-banner {
+  margin: 30px 0px 20px;
 }
 
 .recent-title {
   float: left;
-  overflow: auto;
-  margin-left: 15px;
-  margin-bottom: 0;
-}
-.recent-button {
-  padding: 0;
-  margin: 15px 10px;
-  /* padding: 6px 30px;
-  margin: 20px;
-  overflow: auto; */
+  margin-left: 25px;
+
 }
 
 .trans-button {
-  margin: 18px 20px;
+  margin-right: 35px;
 }
 
-.recent-title {
-  /* margin-right: 150px; */
-  font-size: 22px;
-}
-
-.trans_table {
+.trans-table {
   float: left;
   padding: 25px;
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
-.trans_table tr {
-  height: 10px;
-}
-
-.heading-date,
-.heading-payee,
-.heading-inflow,
-.heading-outflow {
-text-align: left;
-padding: 10px 0px;
-}
-
-.table-date,
-.table-payee,
-.table-inflow,
-.table-outflow {
+th,
+td {
+  padding: 8px 0;
   border-bottom: 1px solid #CCCCCC;
   text-align: left;
-  padding: 5px 0px;
+}
+
+.trans-table th {
+  border-bottom: none;
 }
 
 .table-date {
-  width: 10%;
+  width: 8%;
+}
+
+.table-account {
+  width: 5%;
 }
 
 .table-payee {
-  width: 10%;
+  width: 11%;
   text-align: left;
 }
 
@@ -241,6 +250,99 @@ padding: 10px 0px;
   width: 3%;
 }
 
-.account_cards td {
-  text-align: left;
+/* Style for Transactions page: */
+
+.trans-title {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.trans-left-container {
+  float: left;
+  height: 100vh;
+  width: 47%;
+}
+
+.trans-header {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.trans-header button {
+  background-color: white;
+  color: #1CA3BA;
+  border: 1px solid #1CA3BA;
+  width: 110px;
+  height: 32px;
+  padding: 7px 0;
+  font-size: 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.trans-header button:hover {
+  color: white;
+  background-color: #1CA3BA;
+}
+
+.trans-table-2 {
+  background-color: white;
+  height: 90vh;
+  margin-top: 20px;
+  padding: 25px;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
+  font-size: 14px;
+  overflow: scroll;
+}
+
+.trans-table-2 th {
+  font-size: 15px;
+}
+
+.trans-right-container {
+  width: 40%;
+  height: 640px;
+  margin-top: 20px;
+  margin-left: 730px;
+  background-color: white;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
+}
+
+.new-trans-title {
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+form {
+  padding: 0 75px;
+}
+
+label {
+  display: block;
+  height: 30px;
+}
+
+select, input {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 30px;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 5px;
+}
+
+select {
+  font-size: 14px;
+}
+
+.log-button input {
+  background-color: #1CA3BA;
+  border: none;
+  text-decoration: none;
+  width: 140px;
+  background-color: #1CA3BA;
+  color: white;
+  padding: 4px 0;
+  font-size: 14px;
+  border-radius: 20px;
 }

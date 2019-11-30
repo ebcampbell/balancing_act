@@ -192,113 +192,115 @@ function displayTransactionPage() {
         <button>outflow</button>
       </header>
       <div class="trans-left-container">
-        <table class="trans-table-2">
-          <tr>
-            <th class="heading-date">Date</th>
-            <th class="heading-account">Account</th>
-            <th class="heading-payee">Payee</th>
-            <th class="heading-inflow">Inflow</th>
-            <th class="heading-outflow">Outflow</th>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Credit Card</td>
-            <td class="table-payee">Target</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$82.35</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-24-19</td>
-            <td class="table-account">Credit Card</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$212.24</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-22-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Paycheck</td>
-            <td class="table-inflow">$1,319.12</td>
-            <td class="table-outflow">-</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-21-19</td>
-            <td class="table-account">Credit Card</td>
-            <td class="table-payee">Trader Joe's</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$54.92</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-20-19</td>
-            <td class="table-account">Credit Card</td>
-            <td class="table-payee">Shell</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$46.23</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-19-19</td>
-            <td class="table-account">Savings</td>
-            <td class="table-payee">Rent</td>
-            <td class="table-inflow">$800.00</td>
-            <td class="table-outflow">-</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-19-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Hapa Sushi</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$13.97</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-18-19</td>
-            <td class="table-account">Credit Card</td>
-            <td class="table-payee">Pig Train</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$4.83</td>
-          </tr>
-          <tr>
+        <div class="table-container">
+          <table class="trans-table-2">
+            <tr>
+              <th class="heading-date">Date</th>
+              <th class="heading-account">Account</th>
+              <th class="heading-payee">Payee</th>
+              <th class="heading-inflow">Inflow</th>
+              <th class="heading-outflow">Outflow</th>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Credit Card</td>
+              <td class="table-payee">Target</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$82.35</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-24-19</td>
+              <td class="table-account">Credit Card</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$212.24</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-22-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Paycheck</td>
+              <td class="table-inflow">$1,319.12</td>
+              <td class="table-outflow">-</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-21-19</td>
+              <td class="table-account">Credit Card</td>
+              <td class="table-payee">Trader Joe's</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$54.92</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-20-19</td>
+              <td class="table-account">Credit Card</td>
+              <td class="table-payee">Shell</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$46.23</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-19-19</td>
+              <td class="table-account">Savings</td>
+              <td class="table-payee">Rent</td>
+              <td class="table-inflow">$800.00</td>
+              <td class="table-outflow">-</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-19-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Hapa Sushi</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$13.97</td>
+            </tr>
+            <tr>
               <td class="table-date">Oct-18-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">RTD</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$6.00</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$121.24</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$121.24</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$121.24</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$121.24</td>
-          </tr>
-          <tr>
-            <td class="table-date">Oct-25-19</td>
-            <td class="table-account">Checking</td>
-            <td class="table-payee">Express</td>
-            <td class="table-inflow">-</td>
-            <td class="table-outflow">$121.24</td>
-          </tr>
-        </table>
+              <td class="table-account">Credit Card</td>
+              <td class="table-payee">Pig Train</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$4.83</td>
+            </tr>
+            <tr>
+                <td class="table-date">Oct-18-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">RTD</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$6.00</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$121.24</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$121.24</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$121.24</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$121.24</td>
+            </tr>
+            <tr>
+              <td class="table-date">Oct-25-19</td>
+              <td class="table-account">Checking</td>
+              <td class="table-payee">Express</td>
+              <td class="table-inflow">-</td>
+              <td class="table-outflow">$121.24</td>
+            </tr>
+          </table>
+        </div>
       </div>
       <div class="trans-right-container">
         <div class="content">

@@ -51,11 +51,6 @@ nav button {
   width: 50px;
 }
 
-.transaction-page {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   font-size: 14px;
 }
@@ -68,7 +63,7 @@ header {
 .trans-left-container {
   float: left;
   height: 100vh;
-  width: 48.5%;
+  width: 47%;
 }
 
 .trans-header {
@@ -79,12 +74,18 @@ header {
 .trans-header button {
   background-color: white;
   border: 1px solid #1CA3BA;
-  width: 120px;
-  padding: 6px 28px 2px;
+  width: 110px;
+  height: 32px;
+  padding: 7px 0;
   font-size: 12px;
   border-radius: 20px;
   color: #1CA3BA;
   text-transform: uppercase;
+}
+
+.trans-header button:hover {
+  color: white;
+  background-color: #1CA3BA;
 }
 
 .trans-table-2 {
@@ -93,11 +94,10 @@ header {
   margin-top: 20px;
   padding: 25px;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
-  font-size: 15px;
+  font-size: 14px;
   overflow: scroll;
 }
 
-table,
 th,
 td {
   padding: 8px 0;
@@ -105,8 +105,8 @@ td {
   text-align: left;
 }
 
-table,th {
-  font-size: 16px;
+.trans-table-2 th {
+  font-size: 15px;
 }
 
 .table-date {
@@ -131,10 +131,10 @@ table,th {
 }
 
 .trans-right-container {
-  width: 38%;
+  width: 40%;
   height: 640px;
   margin-top: 20px;
-  margin-left: 750px;
+  margin-left: 730px;
   background-color: white;
   box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.05);
 }
@@ -145,8 +145,7 @@ table,th {
 }
 
 form {
-  text-align: left;
-  padding: 0 80px;
+  padding: 0 75px;
 }
 
 label {
@@ -177,5 +176,4 @@ select {
   padding: 4px 0;
   font-size: 14px;
   border-radius: 20px;
-  cursor: pointer;
 }

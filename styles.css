@@ -257,19 +257,14 @@ td {
 
 /* Style for Transactions page: */
 
-.trans-title {
-  display: inline-block;
-  margin-right: 130px;
-}
-
-.trans-left-container {
-  float: left;
-  width: 47%;
-}
-
 .trans-header {
   width: 100%;
   padding-top: 30px;
+}
+
+.trans-title {
+  display: inline-block;
+  margin-right: 130px;
 }
 
 .trans-header button {
@@ -289,12 +284,16 @@ td {
   background-color: #1CA3BA;
 }
 
+.trans-left-container {
+  float: left;
+  width: 47%;
+}
+
 .table-container {
     width: 100%;
     height: 85vh;
     margin-top: 20px;
     overflow: scroll;
-    /* border: 1px solid black; */
 }
 
 .trans-table-2 {

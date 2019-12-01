@@ -9,7 +9,6 @@ function closeWelcome() {
 }
 
 
-
 var dashboardButton = document.querySelector('.dashboard-button');
 var walletButton = document.querySelector('.wallet-button');
 var profileButton = document.querySelector('.profile-button');
@@ -41,9 +40,6 @@ function changeDashboardIcon() {
   walletButton.classList.remove('nav-icon-button');
   displayDashboardPage();
 }
-
-// This is where functions for the specific pages start
-// Write Dashboard page first because it already exists and you can just copy and paste.
 
 function displayDashboardPage() {
   overviewPage.innerHTML =
@@ -177,7 +173,7 @@ function displayDashboardPage() {
 function displayTransactionPage() {
   overviewPage.innerHTML =
   `<main>
-    <div class="transaction-page">
+    <div>
       <header class="trans-header">
         <h1 class="trans-title">Transactions</h1>
         <button>all</button>

@@ -8,13 +8,8 @@ function closeWelcome() {
   welcome.style.display = 'none'
 }
 
-// welcome.addEventListener('click', closeWelcome);
 
-// function closeWelcome(event) {
-//   if (event.target.classList.contains('close-img')) {
-//   event.target.parentNode.parentNode.remove();
-//   }
-// }
+
 var dashboardButton = document.querySelector('.dashboard-button');
 var walletButton = document.querySelector('.wallet-button');
 var profileButton = document.querySelector('.profile-button');
@@ -26,7 +21,6 @@ function changeWalletIcon() {
   walletButton.classList.add('nav-icon-button');
   dashboardButton.classList.remove('nav-icon-button');
   profileButton.classList.remove('nav-icon-button');
-  // overviewPage.remove('main');
   displayTransactionPage();
 }
 
@@ -36,7 +30,6 @@ function changePorfileIcon() {
   profileButton.classList.add('nav-icon-button');
   walletButton.classList.remove('nav-icon-button');
   dashboardButton.classList.remove('nav-icon-button');
-  // overviewPage.remove('main');
   displayProfilePage();
 }
 
